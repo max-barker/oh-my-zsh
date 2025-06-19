@@ -1,3 +1,5 @@
+export XDEBUG_CONFIG="idekey=VSCODE"
+
 alias phinx='./vendor/bin/phinx'
 alias seed='phinx seed:run'
 alias migrate='phinx migrate'
@@ -7,4 +9,4 @@ alias p='./vendor/bin/phpunit --colors'
 alias pv='p --verbose'
 alias pf='p --filter'
 alias pg='p --group'
-alias pa=" docker exec webserver php bin/console"
+alias pa="docker exec webserver php bin/console"
