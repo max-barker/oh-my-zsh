@@ -1,3 +1,4 @@
+export PATH=$HOME/.config/composer/vendor/bin:$PATH
 export XDEBUG_CONFIG="idekey=VSCODE"
 
 alias phinx='./vendor/bin/phinx'
