@@ -5,6 +5,8 @@ alias phinx='./vendor/bin/phinx'
 alias seed='phinx seed:run'
 alias migrate='phinx migrate'
 
+alias sail='sh $([ -f sail ] && echo sail || echo vendor/bin/sail)'
+
 alias pest='./vendor/bin/pest'
 alias p='./vendor/bin/phpunit --colors'
 alias pv='p --verbose'
