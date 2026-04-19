@@ -1,3 +1,5 @@
+ZSH_THEME="eastwood"
+
 alias ls='ls --color=auto'
 alias ll='ls -lah'
 
